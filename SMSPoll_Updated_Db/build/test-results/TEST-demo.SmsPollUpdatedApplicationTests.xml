@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.SmsPollUpdatedApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-04-15T16:50:10" hostname="garg" time="0.016">
+  <properties/>
+  <testcase name="contextLoads" classname="demo.SmsPollUpdatedApplicationTests" time="0.016"/>
+  <system-out><![CDATA[09:50:03.043 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class demo.SmsPollUpdatedApplicationTests].
+09:50:03.090 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+09:50:03.118 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@4c0a6295 declaringClass = 'demo.SmsPollUpdatedApplicationTests', classes = '{class demo.SmsPollUpdatedApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+09:50:03.136 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.144 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [demo.SmsPollUpdatedApplicationTests]: using defaults.
+09:50:03.157 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+09:50:03.195 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a6105d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1770a5da, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c49b2e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ffc0815, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2deac74f]
+09:50:03.199 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.200 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.203 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.203 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.206 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.206 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.209 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.209 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [demo.SmsPollUpdatedApplicationTests]
+09:50:03.213 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1c9485fe testClass = SmsPollUpdatedApplicationTests, testInstance = demo.SmsPollUpdatedApplicationTests@f0c9bf3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@371edb65 testClass = SmsPollUpdatedApplicationTests, locations = '{}', classes = '{class demo.SmsPollUpdatedApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+09:50:03.457 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+09:50:03.462 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+09:50:03.462 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+09:50:03.465 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.3.RELEASE)
+
+2015-04-15 09:50:04.011  INFO 5144 --- [    Test worker] o.s.boot.SpringApplication               : Starting application on garg with PID 5144 (C:\Users\Jai\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\1.2.3.RELEASE\2601c81786dd8d88fd7e53af1a3950ef45fd5507\spring-boot-1.2.3.RELEASE.jar started by Jai in C:\Users\Jai\Desktop\Assignment2_Mongodb-master\Assignment2_Mongodb-master\SMSPoll_Updated_Db)
+2015-04-15 09:50:04.104  INFO 5144 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@591648a6: startup date [Wed Apr 15 09:50:04 PDT 2015]; root of context hierarchy
+2015-04-15 09:50:06.843  INFO 5144 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.scheduling.annotation.SchedulingConfiguration' of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$8955072c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-04-15 09:50:09.326  INFO 5144 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bdd6129, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cfa798b, org.springframework.security.web.header.HeaderWriterFilter@413cb8bf, org.springframework.security.web.authentication.logout.LogoutFilter@76cf03dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57352948, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d55cbf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4333bd97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4838c4ab, org.springframework.security.web.session.SessionManagementFilter@69e672af, org.springframework.security.web.access.ExceptionTranslationFilter@2d4413a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ec268ee]
+The time is now 2015-04-15T09:50:10.5010Z
+2015-04-15 09:50:10.644  INFO 5144 --- [    Test worker] o.s.boot.SpringApplication               : Started application in 7.171 seconds (JVM running for 9.891)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
